@@ -449,15 +449,11 @@ export const botConfig = {
   // Set any feature to `false` to disable it globally.
   features: {
     // Core systems.
-    economy: true,
-    leveling: true,
     moderation: true,
     logging: true,
     welcome: true,
 
     // Community engagement systems.
-    tickets: true,
-    giveaways: true,
     birthday: true,
     counter: true,
 
@@ -532,9 +528,6 @@ export const BotConfig = botConfig;
 const COMMAND_CATEGORY_FEATURE_MAP = {
   birthday: "birthday",
   community: "community",
-  economy: "economy",
-  fun: "fun",
-  giveaway: "giveaways",
   jointocreate: "joinToCreate",
   leveling: "leveling",
   logging: "logging",
@@ -543,7 +536,6 @@ const COMMAND_CATEGORY_FEATURE_MAP = {
   reaction_roles: "reactionRoles",
   search: "search",
   serverstats: "counter",
-  ticket: "tickets",
   tools: "tools",
   utility: "utility",
   verification: "verification",
